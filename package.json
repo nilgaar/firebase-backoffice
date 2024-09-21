@@ -1,33 +1,33 @@
 {
-  "name": "firebase-backoffice",
-  "version": "0.1.0",
-  "private": true,
-  "licenses": [
-    {
-      "type": "The Unlicense",
-      "url": "http://unlicense.org/"
+    "name": "firebase-backoffice",
+    "version": "0.1.0",
+    "private": true,
+    "licenses": [
+        {
+            "type": "The Unlicense",
+            "url": "http://unlicense.org/"
+        }
+    ],
+    "dependencies": {
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1"
+    },
+    "scripts": {
+        "start": "",
+        "prepare": "husky"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "devDependencies": {
+        "husky": "^9.1.6",
+        "lint-staged": "^15.2.10",
+        "prettier": "3.3.3"
+    },
+    "lint-staged": {
+        "**/*": "prettier --write --ignore-unknown"
     }
-  ],
-  "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
-  },
-  "scripts": {
-    "start": "",
-    "prepare": "husky"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "devDependencies": {
-    "husky": "^9.1.6",
-    "lint-staged": "^15.2.10",
-    "prettier": "3.3.3"
-  },
-  "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown"
-  }
 }
